@@ -5,30 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    
 </head>
 <body>
-
  <header>
     <h1>Kuhle Gaqa</h1>
     <img src="https://z-p3-scontent.fcpt1-1.fna.fbcdn.net/v/t39.30808-6/448359987_3665604663750285_7722175428322015899_n.jpg?stp=dst-jpg_p526x296&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH1OMCBUjPogtZQdpncxuYZcuagdQqHZCly5qB1CodkKbwlbuJK1ZIJvoveO9RK7_cIxugliOBEwPqTLQ5Jugfu&_nc_ohc=FKEmuKqLXRYQ7kNvgGfDSSx&_nc_ht=z-p3-scontent.fcpt1-1.fna&oh=00_AYBpZ7CHRuGJ61Z73t26PRWU53DFVnBufpwN-FRo0CgS4g&oe=6673BEB2" alt="Profile Picture">
+    <nav>
+        <ul>
+            <li>
+            <a href="#section1">Summary</a>
+            <a href="#section2">Education</a>
+            <a href="#section3">Work Experience</a>
+            <a href="#section4">Skills</a>
+            <a href="#section5">Contact Details</a>
+        </li>
+        </ul>
+        </nav>
  </header>
 
  <main>
+
     <section>
-        <h2>Bio</h2>
-        <p>Kuhle is a detail-oriented professional with 1 year of experience in hospital administration, complemented by a diploma in Tourism Management and a generic management certificate.<br>
-            Strong organizational skills developed through administrative roles, coupled with a passion for delivering exceptional customer service.<br>
-            Proficient in office management tasks and adept at handling multiple responsibilities efficiently.<br>
-            Eager to apply her skills and knowledge to contribute effectively to a dynamic work environment and continue to learn and grow in the field of administration and management.</p>
+        <section id="section1">
+        <h2>Summary</h2>
+        <p>Results-driven administrative professional with 1+ year of experience in hospital administration, complemented by a 3-year National Diploma in Tourism Management, a 1-year Advanced Diploma in Tourism Management, and a Certificate in Generic Management. <br>
+             Offering a unique blend of organizational skills, customer service expertise, and advanced management knowledge.<br>
+              Proven ability to efficiently manage multiple tasks, ensure accuracy, and maintain a high level of professionalism. Committed to delivering exceptional support and contributing to a dynamic team environment.</p>
     </section>
 
     <section>
+        <section id="section2">
+        <h2>Education</h2>
+        <p>System Development - NQFL 4 (Ongoing)</p>
+        <p>Generic Management Certificate - NQFL 5 (2023)</p> 
+        <p>Advanced Diploma - Tourism Management (2020)</p>
+        <p>National Diploma - Tourism Management (2019)</p>
+    </section>
+
+    <section>
+        <section id="section3">
+        <h2>Experience</h2>
+        <h3>Frere Hospital - (Intern)</h3>
+        <ul>
+            <li>Taking meeting notes</li>
+            <li>Answering phone calls and take messages for the supervisors</li>
+            <li>Scanning and electronically file documents</li>
+            <li>Filing paper copies of documents</li>
+            <li>Updating Excel spreadsheets</li>
+
+        </ul>
+        <h3>Cecelia Makiwane Hospital - (Intern)</h3>
+       <ul>
+            <li>Registering patients into HMS2</li>
+            <li> Ensuring patient records are filled out and accurate</li>
+            <li>Sending emails, answering phone calls, ordering stationery supplies, and scheduling appointments</li>
+        </ul>
+    </section>
+
+    <section>
+        <section id="section4">
         <h2>Skills</h2>
         <ul>
-            <li>Time Management</li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Problem Solving</li>
+            <li>Computer Literacy</li>
             <li>Organizational Skills</li>
-            <li>Typing Skills</li>
+            <li>Administration Management</li>
+    
         </ul>
+    </section>
+
+    <section>
+        <section id="section5">
+        <h2>Contact Details</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br></br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br></br>
+            <label for="number">Cellphone number: </label>
+            <input type="tel" id="number" name="number"><br></br>
+            
+        </form>
     </section>
 
     <section>
@@ -36,5 +97,6 @@
 
     </section>
  </main>
+ 
 </body>
 </html>

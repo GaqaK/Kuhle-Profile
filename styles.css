@@ -9,7 +9,27 @@ header {
     text-align: center;
     padding: 20px;
 }
+nav ul {
+    background: linear-gradient(135deg, #ff6ec4, #7873f5);
+    color: #0e0000;
+    list-style: none;
+    text-align: center;
+    padding: 15px;
+}
+nav ul li {
+    display: inline;
+}
 
+nav ul li a {
+    color: rgb(8, 8, 8);
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+}
 main {
     max-width: 800px;
     margin: 20px auto;
@@ -38,6 +58,12 @@ h2 {
     color: #333;
 }
 
+h4 {
+    color: #333;
+}
+h5 {
+    color: #333;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -45,6 +71,14 @@ ul {
 
 li {
     margin-bottom: 5px;
+}
+form input [type="text"],
+form input [type="email"],
+form input [type="tel"],
+form input [type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 button {
